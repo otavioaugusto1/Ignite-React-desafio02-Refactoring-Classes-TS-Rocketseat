@@ -1,4 +1,3 @@
-
 {
   "compilerOptions": {
     "lib": [
@@ -6,6 +5,7 @@
       "dom.iterable",
       "esnext"
     ],
+    "allowJs": true,
     "jsx": "react-jsx",
     "moduleResolution": "node",
     "resolveJsonModule": true,
@@ -16,7 +16,10 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "target": "es6",
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext"
   },
   "include": ["src"]
 }
